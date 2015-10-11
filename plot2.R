@@ -1,3 +1,5 @@
+# Start of Script
+
 # Download data file
 temp <- tempfile()
 download.file("https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip",temp)
@@ -41,3 +43,5 @@ axis(2, at=c(0, 2, 4, 6))
 
 # Turn plot device off
 dev.off()
+
+# End of Script
